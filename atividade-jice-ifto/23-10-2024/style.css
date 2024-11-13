@@ -1,0 +1,15 @@
+.inline-e{
+    display: flex;
+    gap: 10px;
+}
+.box {
+    padding: 20px;
+}
+
+.centralizar-imgs {
+    display: flex;
+
+align-items: center;
+
+justify-content: center; 
+}

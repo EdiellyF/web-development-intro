@@ -75,6 +75,29 @@ a {
 }
 
 
+.hero section {
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.atividade {
+    margin-bottom: 20px;
+}
+
+.atividade h2 {
+    font-size: 34px;
+    color: #731A44;
+    margin-bottom: 10px;
+}
+
+.atividade a {
+    font-size: 24px;
+}
+
+
+
 @media (max-width: 768px) {
     .hamburger {
         display: block;
