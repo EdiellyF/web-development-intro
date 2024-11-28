@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica - Cadastro de Pacientes</title>
+    <link rel="stylesheet" href="./src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+
+            <div class="row justify-content-md-center"> 
+                <h1>Bem vindo, Cadastrar Paciente</h1>
+            </div>
+        </div>
+ </header>
+
+
+   <section class="container">
+        <form>
+
+
+                <div class="form-row">
+                    <label for="exampleInputEmail1">Email do Paciente</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="email">
+                </div>
+             
+
+
+             <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputCity">Cidade</label>
+                            <input type="text" class="form-control" id="inputCity">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="inputEstado">Estado</label>
+                            <select id="inputEstado" class="form-control">
+                                <option selected>Escolher...</option>
+                                <option>SP</option>
+                                <option>RJ</option>
+                                <option>MG</option> 
+                                <opTION>RS</option>
+                                <option>PR</option>
+                            </select>
+                        </div>  
+                </div>
+
+                <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="">Data do agendamento</label>
+                            <input type="date" name="" id="">
+                        </div>
+                </div>
+            
+                 <label class="col-sm-2" for="">Nível Paciente</label>
+                        <div class="form-group col-md-6">
+                          
+                                    <input type="radio" id="grave" name="caso_paciente" value="grave">
+                                    <label for="grave" class="col-sm-2">Grave</label><br>
+                                    <input type="radio" id="medio" name="caso_paciente" value="medio">
+                                    <label for="medio"  class="col-sm-2">médio</label><br>
+                                    <input type="radio" id="leve" name="caso_paciente" value="leve">
+                                    <label for="leve"  class="col-sm-2">leve</label>
+                        </div>
+               
+
+                         
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="peso">Peso (kg)</label>
+                    <input type="number" class="form-control" id="peso" placeholder="Peso do paciente" min="0" step="0.1">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="altura">Altura (cm)</label>
+                    <input type="number" class="form-control" id="altura" placeholder="Altura do paciente" min="0" step="0.1">
+                </div>
+            </div>
+
+
+                        <input type="submit" value="Cadastrar Paciente" class="btn btn-success"
+                   
+
+          </form>
+   </section>
+
+
+</body>
+</html>
