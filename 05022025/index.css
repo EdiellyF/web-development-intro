@@ -1,0 +1,126 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f0e3; 
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+
+.header h1 {
+    font-size: 3rem;
+    color: #ff66b2; 
+    margin-bottom: 30px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+
+.box {
+    background-color: #ffe6f2;
+    border-radius: 15px;
+    padding: 20px;
+    width: 250px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    font-weight: bold;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+
+.static {
+    position: static;
+    background-color: #ffb3d9; 
+}
+
+
+.absolute {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    background-color: #ff99cc; 
+}
+
+.relative {
+    position: relative;
+    top: 200px;
+    left: 100px;
+    background-color: #ff66b2; 
+}
+
+
+.fixed {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background-color: #ff3399; 
+}
+
+.sticky {
+    position: sticky;
+    top: 50px;
+    background-color: #ff4d94; 
+}
+
+.floating-box {
+    position: relative;
+    top: 150px;
+    width: 250px;
+    background-color: #fff0f5; 
+    margin: 20px auto;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.floating-box:hover {
+    transform: translateY(-10px);
+}
+
+/* Efeito para o ícone de coração */
+.floating-box .icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.floating-box:hover .icon {
+    transform: rotate(15deg);
+}
+
+/* Texto da caixa flutuante */
+.floating-box p {
+    font-size: 1.5rem;
+    color: #ff3399;
+    font-weight: bold;
+}
